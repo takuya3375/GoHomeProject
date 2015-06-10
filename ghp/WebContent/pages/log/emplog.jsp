@@ -12,7 +12,7 @@
 		<h2>FullneFlower 受発注管理システム</h2>
 		<hr>
 		<p>社員番号とパスワードを入力してください。</p>
-		<form action="baseframe.html" target="_top">
+		<form action="contlloer" method="post">
 			<table>
 				<tr>
 					<td>社員番号</td>

@@ -1,4 +1,4 @@
-package com.fullnefllower.ghp.bean;
+package com.fullneflower.ghp.bean;
 
 import java.io.IOException;
 import javax.servlet.ServletException;

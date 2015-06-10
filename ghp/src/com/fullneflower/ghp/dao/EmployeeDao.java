@@ -1,4 +1,4 @@
-package com.fullnefllower.ghp.dao;
+package com.fullneflower.ghp.dao;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
