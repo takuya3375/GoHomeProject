@@ -1,4 +1,4 @@
-package practice08;
+package com.fullneflower.ghp.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -27,17 +27,17 @@ public class ConnectionManager {
 	/**
 	 * 接続URL
 	 */
-	private final String URL = "jdbc:postgresql://10.50.11.145/ghp";
+	private final String URL = "jdbc:postgresql://10.51.11.145/ghp";
 
 	/**
 	 * 接続ユーザ
 	 */
-	private final String USER = "jdbc";
+	private final String USER = "ghp";
 
 	/**
 	 * 接続パスワード
 	 */
-	private final String PASSWORD = "jdbc";
+	private final String PASSWORD = "ghp";
 
 
 

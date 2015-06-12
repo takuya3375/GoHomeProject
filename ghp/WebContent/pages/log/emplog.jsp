@@ -12,7 +12,8 @@
 		<h2>FullneFlower 受発注管理システム</h2>
 		<hr>
 		<p>社員番号とパスワードを入力してください。</p>
-		<form action="contlloer" method="post">
+		${erro}
+		<form action="/ghp/controller" method="post">
 			<table>
 				<tr>
 					<td>社員番号</td>
@@ -26,6 +27,7 @@
 
 			<br> <input type="submit" value="ログイン"> <input
 				type="reset" value="クリア">
+				<input type="hidden" name="action" value="employee.login">
 		</form>
 
 		<br>

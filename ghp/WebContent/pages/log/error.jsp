@@ -7,6 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-えらーーーーーーーーー
+<center>
+<h2>システムエラーが発生しました</h2>
+	システムエラーが発生しました。
+	<br> 現在の操作を中断して、再度ログインして処理を行ってください。
+	<br> 状況が改善されない場合は、大変お手数ですが、弊社情報システム部 までお問い合わせください。
+	<br>
+	<form action="/ghp/controller" method="post">
+	<input type="submit" value="ログイン">
+	<input type="hidden" name="action" value="employee.login">
+	</form>
+	</center>
 </body>
 </html>
