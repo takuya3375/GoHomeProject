@@ -27,7 +27,7 @@ public class ConnectionManager {
 	/**
 	 * 接続URL
 	 */
-	private final String URL = "jdbc:postgresql://10.51.11.145/ghp";
+	private final String URL = "jdbc:postgresql://1/ghp";
 
 	/**
 	 * 接続ユーザ
